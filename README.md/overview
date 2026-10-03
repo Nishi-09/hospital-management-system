@@ -1,0 +1,33 @@
+# 🏥 Hospital Management System - SQL Project
+
+A comprehensive relational database project built using **MySQL**, designed to manage hospital operations including departments, doctors, patients, and appointments.
+
+---
+
+## 📂 Database Schema & Structure
+The database (`hospital_db`) consists of four core relational tables:
+1. **`departments`**: Stores hospital department details.
+2. **`doctors`**: Manages doctor profiles, specializations, and department associations.
+3. **`patients`**: Keeps track of patient demographics and personal records.
+4. **`appointments`**: Handles scheduling and tracking patient visits to doctors.
+
+---
+
+## 📊 Entity-Relationship (ER) Diagram
+Here is the visual representation of the database schema and table relationships:
+
+![Hospital ER Diagram](./hospital%20appointment%20project.png)
+
+---
+
+## 🛠️ Tech Stack
+* **Database Management System:** MySQL
+* **Tool:** MySQL Workbench
+* **Version Control:** Git & GitHub
+
+---
+
+## 🚀 Features & Queries Included
+* Table creation with primary and foreign key constraints.
+* Complex `JOIN` queries to fetch patient-doctor appointment mappings.
+* Aggregation queries to analyze department-wise appointment distributions.
